@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f5f0;
+    color: #2b211c;
+}
+
+header {
+    background-color: #5a463b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
+
+header h1{
+    font-size: 36px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover{
+    color: #b89b5e;
+}
+
+#home {
+    text-align: center;
+    padding: 40px;
+}
+
+#home h2{
+    font-size: 36px;
+}
+
+#home img{
+    width: 70%;
+}
+
+#home a{
+    background-color: #2b211c;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#home a:hover{
+    background-color: #b89b5e;
+}
+
+#services {
+    background-color: #eee4d8;
+    text-align: center;
+    padding: 40px;
+}
+
+#services h3{
+    margin-top: 25px;
+}
+
+#about{
+    background-color: #806957;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+#about p{
+    color: white;
+}
+
+#gallery{
+    text-align: center;
+    padding: 40px;
+}
+
+#testimonials{
+    background-color: #eee4d8;
+    text-align: center;
+    padding: 40px;
+}
+
+#contact {
+    background-color: #2b211c;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+#contact p{
+    color: white;
+}
+
+footer{
+    background-color: #2b211c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+article {
+    width: 70%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+}
+
+article h{
+    font-size: 38px;
+    color: #5a463b;
+}
+
+article img{
+    width: 50%;
+    height: auto;
+    margin: 20px 0;
+}
+
+article h2 {
+    margin-top: 30px;
+    color: #806957;
+}
+
+article p{
+    line-height: 1.6;
+}
+
+aside {
+    width: 60%;
+    margin: 30px auto;
+    background-color: #eee4d8;
+    padding: 25px;
+    text-align: center;
+}
