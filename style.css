@@ -42,6 +42,12 @@ nav a:hover{
 
 #home img{
     width: 70%;
+    height: 25rem;
+    padding: 0.5rem;
+    margin: 2rem auto;
+    border: 3px solid #b89b5e;
+    object-fit: cover;
+    display: block;
 }
 
 #home a{
@@ -139,4 +145,12 @@ aside {
     background-color: #eee4d8;
     padding: 25px;
     text-align: center;
+}
+
+.about-page{
+    background-image: url("pic2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
