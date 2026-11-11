@@ -1,8 +1,14 @@
 body {
     margin: 0;
-    font-family: "Playfair Display", serif;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.6;
     background-color: #f8f5f0;
     color: #2b211c;
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
 }
 
 header {
@@ -18,7 +24,7 @@ img {
 }
 
 header h1{
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 nav a {
@@ -27,8 +33,10 @@ nav a {
     margin: 10px;
 }
 
-nav a:hover{
-    color: #b89b5e;
+nav a:hover,
+nav a:focus{
+    color: #f3d9a4;
+    text-decoration: underline;
 }
 
 #home {
@@ -37,7 +45,7 @@ nav a:hover{
 }
 
 #home h2{
-    font-size: 36px;
+    font-size: 2.25rem;
 }
 
 #home img{
@@ -57,8 +65,12 @@ nav a:hover{
     padding: 10px 20px;
 }
 
-#home a:hover{
+
+#home a:hover,
+#home a:focus{
     background-color: #b89b5e;
+    color: #2b211c;
+    text-decoration: underline;
 }
 
 #services {
@@ -119,8 +131,8 @@ article {
     padding: 30px;
 }
 
-article h{
-    font-size: 38px;
+article h1{
+    font-size: 2.4rem;
     color: #5a463b;
 }
 
@@ -153,4 +165,9 @@ aside {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+article p,
+aside p {
+    text-align: left;
 }
